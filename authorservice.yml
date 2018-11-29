@@ -1,5 +1,7 @@
-app:
-  db: authors
+spring:
+  datasource:
+    url: jdbc:postgresql://classdb.csvriryt3t5w.us-east-2.rds.amazonaws.com:5432/authors
+
   
 server:
   port: 5000

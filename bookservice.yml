@@ -1,5 +1,7 @@
-app:
-  db: books
+spring:
+  datasource:
+    url: jdbc:postgresql://classdb.csvriryt3t5w.us-east-2.rds.amazonaws.com:5432/books
+
   
 server:
   port: 4000
