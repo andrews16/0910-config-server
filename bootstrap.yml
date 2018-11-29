@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    username: hibernate_role
+    password: top-secret
+    url: jdbc:postgresql://classdb.csvriryt3t5w.us-east-2.rds.amazonaws.com:5432/${app.db}
+  jpa:
+    hibernate:
+      ddl-auto: update
